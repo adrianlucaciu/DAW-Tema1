@@ -24,8 +24,8 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="#slides">Acasă</a>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Acasă</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="noutati.html">Noutăți</a>
@@ -36,8 +36,8 @@
 					<li class="nav-item">
 						<a class="nav-link" href="medici.html">Medici</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="servicii.html">Servicii&Tarife</a>
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Servicii&Tarife</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="contact.html">Contact</a>
@@ -47,44 +47,70 @@
 		</div>
 	</nav>
 
-	<!--- Image Slider -->
-	<div id="slides" class="carousel slide" data-ride="carousel">
-		<ul class="carousel-indicators">
-			<li data-target="#slides" data-slide-to="0" class="active"></li>
-			<li data-target="#slides" data-slide-to="1"></li>
-			<li data-target="#slides" data-slide-to="2"></li>
-		</ul>
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img src="img/background.jpg" class="carousel-image">
-
+	<!--- Servicii -->
+	<div id="servicii" class="container-fluid">
+		<div class="row welcome text-center">
+			<div class="col-12">
+				<h1 class="display-5">Servicii&Tarife</h1>
 			</div>
-			<div class="carousel-item">
-				<img src="img/background2.jpg">
-			</div>
-			<div class="carousel-item">
-				<img src="img/background3.jpg">
-			</div>
-			<div class="carousel-caption">
-				<h1 class="display-4">DentaWEB</h1>
-				<h4>Clinică Dentară</h4>
-				<a href="contact.html" class="btn btn-outline-light btn-lg">
-					Contact
-				</a>
-			</div>
+			<hr>
 		</div>
-	</div>
+		<div class="tarife-wraper">
+			<table class="table table-bordered">
+				<thead class="thead-light">
+					<tr>
+						<th scope="col">Nume Serviciu</th>
+						<th scope="col">Tarif (Lei)</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">Obturatie foto (Plomba)</th>
+						<td>200</td>
+					</tr>
+					<tr>
+						<th scope="row">Obturatie colet</th>
+						<td>200</td>
+					</tr>
+					<tr>
+						<th scope="row">Obturatie de baza SDR</th>
+						<td>50</td>
+					</tr>
+					<tr>
+						<th scope="row">Albire dentara lampa UV</th>
+						<td>700</td>
+					</tr>
+					<tr>
+						<th scope="row">Albire dentara Laser Biolase</th>
+						<td>1000</td>
+					</tr>
+					<tr>
+						<th scope="row">Extractie molar de minte superior</th>
+						<td>250</td>
+					</tr>
+					<tr>
+						<th scope="row">Extractie molar de minte inferior</th>
+						<td>250</td>
+					</tr>
+					<tr>
+						<th scope="row">Incizie, drenaj abces</th>
+						<td>200</td>
+					</tr>
+					<tr>
+						<th scope="row">Implant dentar MIS</th>
+						<td>400</td>
+					</tr>
+					<tr>
+						<th scope="row">Coroana metalo-ceramica pe implant</th>
+						<td>200</td>
+					</tr>
+					<tr>
+						<th scope="row">Coroana zirconiu-ceramica pe implant</th>
+						<td>200</td>
+					</tr>
 
-	<!--- Info - Jumbotron -->
-	<div class="container-fluid">
-		<div class="row jumbotron">
-			<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-				<p class="lead">DentaWEB este o clinică dentară modernă cu dorința de a presta servicii de calitate la
-					un preț accesibil. </p>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-				<a href="servicii.html"><button type="button" class="btn btn-outline-secondary btn-lg">Servicii</button></a>
-			</div>
+				</tbody>
+			</table>
 		</div>
 	</div>
 

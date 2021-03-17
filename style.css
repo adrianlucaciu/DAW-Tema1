@@ -7,7 +7,7 @@ html, body {
   color: #222;
 }
 .navbar-img {
-  height: 40px;
+  height: 30px;
   width: auto;
 }
 .navbar {
@@ -79,7 +79,7 @@ html, body {
   max-width: 760px;
   margin: 0 auto;
 }
-.footer {
+.contact {
   background-color: #008080;
   color: white;
 }
