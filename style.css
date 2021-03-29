@@ -79,10 +79,18 @@ html, body {
   max-width: 760px;
   margin: 0 auto;
 }
-.contact {
+
+.despreNoi-wrapper {
+  max-width: 1480px;
+}
+
+.contactBackground {
   background-color: #008080;
   color: white;
+
 }
+
+
 
 
 /*---Media Queries --*/
